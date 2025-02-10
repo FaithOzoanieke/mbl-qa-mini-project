@@ -8,7 +8,6 @@ export type SignupData = {
   username: string;
   password: string;
 };
-//SOme tect
 
 export type SignupResponse = {
   username: string;
