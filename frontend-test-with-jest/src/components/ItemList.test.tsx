@@ -128,7 +128,7 @@ describe("ItemList", () => {
     // Assert: Verify that axios.delete was called with the expected URL and headers
     await waitFor(() => {
       expect(mockedAxios.delete).toHaveBeenCalledWith(
-        `https:qa-test-9di7.onrender.com/items/1`,
+        `https://qa-test-9di7.onrender.com/items/1`,
         { headers: { Authorization: "Bearer dummyToken" } }
       );
     });
